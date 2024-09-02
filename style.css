@@ -1,0 +1,60 @@
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pokemon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+
+.card {
+    transition: 0.3s;
+    width: 150px;
+    height: 210px;
+    border: 1px solid #ccc;
+    transition-duration: 2;
+    background-color:#ece8e8a2;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+
+}
+
+.card:hover {
+    box-shadow: 0 1px 15px #000000;
+}
+
+.card:hover img {
+    padding: 5px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card ul {
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+.pokemon-name {
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.pokemon-type {
+    font-size: 15px;
+    background-color:#bbb6b69d;
+}
+
+.pokemon-id {
+    font-size: 15px;
+}
